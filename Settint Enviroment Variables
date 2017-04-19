@@ -1,4 +1,4 @@
 export PATH=$PATH':/path/to/add'
 
 example:
-export PATH=$PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
