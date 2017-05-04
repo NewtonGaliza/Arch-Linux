@@ -1,0 +1,11 @@
+# nano /etc/pacman.conf
+
+Add this lines at the end:
+
+[archlinuxfr]
+SigLevel = Never
+Server = http://repo.archlinux.fr/$arch
+
+Save and run the following command:
+
+# pacman -Sy yaourt
